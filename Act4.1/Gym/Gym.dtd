@@ -1,0 +1,15 @@
+
+<!ELEMENT Gym (Clientes)>  
+<!ELEMENT Clientes (Cliente*)>   
+<!ELEMENT Cliente (nombre, apellido, correo, telefono, horarios)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>   
+<!ELEMENT horarios (Lunes, Martes, Miercoles, Jueves, Viernes)>   
+<!ELEMENT Lunes (actividad)>
+<!ELEMENT Martes (actividad)>
+<!ELEMENT Miercoles (actividad)>
+<!ELEMENT Jueves (actividad)>
+<!ELEMENT Viernes (actividad)>
+<!ELEMENT actividad (#PCDATA)>

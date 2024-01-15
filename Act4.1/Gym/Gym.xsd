@@ -1,0 +1,43 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Gym">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Clientes" type="ClientesType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="ClientesType">
+        <xs:sequence>
+            <xs:element name="Cliente" type="ClienteType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ClienteType">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="apellido" type="xs:string"/>
+            <xs:element name="correo" type="xs:string"/>
+            <xs:element name="telefono" type="xs:string"/>
+            <xs:element name="horarios" type="HorariosType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="HorariosType">
+        <xs:sequence>
+            <xs:element name="Lunes" type="ActividadType"/>
+            <xs:element name="Martes" type="ActividadType"/>
+            <xs:element name="Miercoles" type="ActividadType"/>
+            <xs:element name="Jueves" type="ActividadType"/>
+            <xs:element name="Viernes" type="ActividadType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ActividadType">
+        <xs:sequence>
+            <xs:element name="actividad" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
