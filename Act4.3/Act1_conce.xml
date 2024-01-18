@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "..\Act4.2\Concesionario\Concesion.dtd">
+<concesionario>
+    <coche>
+        <codigo>001</codigo>
+        <marca>Toyota</marca>
+        <modelo>Corolla</modelo>
+        <matricula>ABC123</matricula>
+        <potencia>120hp</potencia>
+        <plazas>5</plazas>
+        <puertas>4</puertas>
+    </coche>
+    <coche>
+        <codigo>002</codigo>
+        <marca>Honda</marca>
+        <modelo>Civic</modelo>
+        <matricula>XYZ789</matricula>
+        <potencia>150hp</potencia>
+        <plazas>5</plazas>
+        <puertas>4</puertas>
+    </coche>
+</concesionario>
