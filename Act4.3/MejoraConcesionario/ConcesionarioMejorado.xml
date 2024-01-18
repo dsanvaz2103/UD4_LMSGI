@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "..\MejoraDTD\Mejora.dtd">
+<concesionario>
+    <coche codigo="001">
+        <marca>Toyota</marca>
+        <modelo>Corolla</modelo>
+        <matricula>ABC123</matricula>
+        <potencia>120hp</potencia>
+        <plazas>5</plazas>
+        <puertas>4</puertas>
+        <combustible>Gasolina</combustible>
+    </coche>
+    <coche codigo="002">
+        <marca>Honda</marca>
+        <modelo>Civic</modelo>
+        <matricula>XYZ789</matricula>
+        <potencia>150hp</potencia>
+        <plazas>5</plazas>
+        <puertas>4</puertas>
+        <combustible>Diesel</combustible>
+    </coche>
+    <coche codigo="003">
+        <marca>BMW</marca>
+        <modelo>M5</modelo>
+        <matricula>UIO789</matricula>
+        <potencia>250hp</potencia>
+        <plazas>5</plazas>
+        <puertas>4</puertas>
+        <combustible>Gasolina</combustible>
+    </coche>
+    <coche codigo="004">
+        <marca>Mercedes</marca>
+        <modelo>Benz</modelo>
+        <matricula>UII879</matricula>
+        <potencia>350hp</potencia>
+        <plazas>5</plazas>
+        <puertas>4</puertas>
+        <combustible>Gasolina</combustible>
+    </coche>
+</concesionario>
