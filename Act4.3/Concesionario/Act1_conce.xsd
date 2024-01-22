@@ -12,7 +12,7 @@
               <xs:element name="modelo" type="xs:string"/>
               <xs:element name="matricula" type="xs:string"/>
               <xs:element name="potencia" type="xs:string"/>
-              <xs:element name="plazas" type="xs:integer"/>
+              <xs:element name="plazas" type="xs:string"/>
               <xs:element name="puertas" type="xs:integer"/>
             </xs:sequence>
           </xs:complexType>

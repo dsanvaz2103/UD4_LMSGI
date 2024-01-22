@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Gym SYSTEM "/Gym.xsd">
+<Gym>
+    <Clientes>
+        <Cliente>
+            <nombre>Jose</nombre>
+            <apellido>Sánchez Martinez</apellido>
+            <correo>josamar@gmail.com</correo>
+            <telefono>9789510445365</telefono>
+            <horarios>
+                <Lunes>
+                    <actividad>Espalda,bizeps de 18:00 a 19:30</actividad> 
+                </Lunes>
+                <Martes>
+                    <actividad>Hombro,pecho,triceps de 17:00 a 19:30</actividad>
+                </Martes>
+                <Miercoles>
+                    <actividad>Pierna de 12:00 a 13:30</actividad>
+                </Miercoles>
+                <Jueves>
+                    <actividad>Espalda,bizeps de 18:00 a 19:30</actividad> 
+                </Jueves>
+                <Viernes>
+                    <actividad>Hombro,pecho,triceps de 17:00 a 19:30</actividad>
+                </Viernes>
+            </horarios>
+        </Cliente>
+        <Cliente>
+            <nombre>María</nombre>
+            <apellido>Salguero Piña</apellido>
+            <correo>marsalpn@gmail.com</correo>
+            <telefono>644912565</telefono>
+            <horarios>
+                <Lunes>
+                    <actividad>Espalda,bizeps de 17:00 a 20:30</actividad> 
+                </Lunes>
+                <Martes>
+                    <actividad>Hombro,pecho,triceps de 18:00 a 19:30</actividad>
+                </Martes>
+                <Miercoles>
+                    <actividad>Pierna de 12:00 a 13:30</actividad>
+                </Miercoles>
+                <Jueves>
+                    <actividad>Espalda,bizeps de 20:00 a 21:30</actividad> 
+                </Jueves>
+                <Viernes>
+                    <actividad>Hombro,pecho,triceps de 17:00 a 19:30</actividad>
+                </Viernes>
+            </horarios>
+        </Cliente>
+        <Cliente>
+            <nombre>Alex</nombre>
+            <apellido>Martin Campos</apellido>
+            <correo>alMarCamp@gmail.com</correo>
+            <telefono>9782345445365</telefono>
+            <horarios>
+                <Lunes>
+                    <actividad>Hombro,pecho,triceps de 17:00 a 19:30</actividad>
+                </Lunes>
+                <Martes>
+                    <actividad>Espalda,bizeps de 18:00 a 19:30</actividad> 
+                </Martes>
+                <Miercoles>
+                    <actividad>Pierna de 13:00 a 15:30</actividad>
+                </Miercoles>
+                <Jueves>
+                    <actividad>Espalda,bizeps de 17:00 a 19:30</actividad> 
+                </Jueves>
+                <Viernes>
+                    <actividad>Hombro,pecho,triceps de 17:00 a 20:30</actividad>
+                </Viernes>
+            </horarios>
+        </Cliente>
+    </Clientes>
+</Gym>

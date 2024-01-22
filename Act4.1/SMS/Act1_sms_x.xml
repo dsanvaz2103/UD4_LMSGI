@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BDsms SYSTEM "b/BDsms.xsd">
+<BDsms>
+    <sms>
+        <telefono>9789510445365</telefono>
+        <fecha>1/7/2011</fecha>
+        <hora>22:30</hora>
+        <mensaje>Juego1:Tetris</mensaje>
+    </sms>
+    <sms>
+        <telefono>7378287832832</telefono>
+        <fecha>2/4/2012</fecha>
+        <hora>09:23</hora>
+        <mensaje>Juego2:Ark</mensaje>
+    </sms>
+    <sms>
+        <telefono>2848080686743</telefono>
+        <fecha>3/9/2015</fecha>
+        <hora>16:46</hora>
+        <mensaje>Juego3:Krunker</mensaje>
+    </sms>
+</BDsms>

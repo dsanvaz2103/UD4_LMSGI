@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "..\Act4.4\GestionDeCliente\Clientes.dtd">
+<clientes>
+    <sede>
+        <dir1>dad</dir1>
+        <dir2>dada</dir2>
+        <empleado>dad</empleado>
+        <fecha>dada</fecha>
+    </sede>
+    <cliente>
+        <descripcionCliente>solvente</descripcionCliente>
+        <numViviendas>3</numViviendas>
+        <costeVivienda>150000.00</costeVivienda>
+        <resumenViviendas>Resumen de viviendas...</resumenViviendas>
+        <plazoHacienda>2024-12-31</plazoHacienda>
+    </cliente>
+</clientes>
