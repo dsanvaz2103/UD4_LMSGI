@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE clientes SYSTEM "..\Act4.4\GestionDeCliente\Clientes.dtd">
+<!DOCTYPE clientes SYSTEM "/Clientes.xsd">
 <clientes>
     <sede>
-        <dir1>Dirección 1</dir1>
-        <dir2>Dirección 2</dir2>
-        <empleado>Empleado 1</empleado>
-        <fecha>2022-01-01</fecha>
+        <dir1>dad</dir1>
+        <dir2>dada</dir2>
+        <empleado>dad</empleado>
+        <fecha>dada</fecha>
     </sede>
     <cliente>
-        <descripcionCliente>Solvente</descripcionCliente>
+        <descripcionCliente>solvente</descripcionCliente>
         <numViviendas>3</numViviendas>
         <costeVivienda>150000.00</costeVivienda>
         <resumenViviendas>Resumen de viviendas...</resumenViviendas>
