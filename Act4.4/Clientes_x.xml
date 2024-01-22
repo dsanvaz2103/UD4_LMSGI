@@ -2,16 +2,16 @@
 <!DOCTYPE clientes SYSTEM "/Clientes.xsd">
 <clientes>
     <sede>
-        <dir1>dad</dir1>
-        <dir2>dada</dir2>
-        <empleado>dad</empleado>
-        <fecha>dada</fecha>
+        <dir1>Calle Principal, 123</dir1>
+        <dir2>Piso 4</dir2>
+        <empleado>Juan Pérez</empleado>
+        <fecha>22-01-2024</fecha>
     </sede>
     <cliente>
-        <descripcionCliente>solvente</descripcionCliente>
-        <numViviendas>3</numViviendas>
-        <costeVivienda>150000.00</costeVivienda>
-        <resumenViviendas>Resumen de viviendas...</resumenViviendas>
-        <plazoHacienda>2024-12-31</plazoHacienda>
+        <descripcionCliente>Inmobiliaria XYZ</descripcionCliente>
+        <numViviendas>30</numViviendas>
+        <costeVivienda>300000</costeVivienda>
+        <resumenViviendas>Moderno edificio de apartamentos con excelentes comodidades.</resumenViviendas>
+        <plazoHacienda>31-01-2025</plazoHacienda>
     </cliente>
 </clientes>
