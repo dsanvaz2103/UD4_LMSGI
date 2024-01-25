@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "/Mejora_CFGS.xsd">
+<alumnos>
+    <alumno>
+        <NIF>12345678A</NIF>
+        <Nombre>Juan</Nombre>
+        <Apellido>Pérez</Apellido>
+        <FechaNacimiento>1990-05-15</FechaNacimiento>
+        <Resultado>apto</Resultado>
+        <Observaciones>Excelente rendimiento</Observaciones>
+        <IP>192.168.1.1</IP>
+    </alumno>
+    <alumno>
+        <NIF>98765432B</NIF>
+        <Nombre>Maria</Nombre>
+        <Apellido>Gómez</Apellido>
+        <FechaNacimiento>1992-08-20</FechaNacimiento>
+        <Resultado>No apto</Resultado>
+        <Observaciones>Se necesita mejorar en programación</Observaciones>
+        <MAC>00:1A:2B:3C:4D:5E</MAC>
+    </alumno>
+    <alumno>
+        <NIF>56789012C</NIF>
+        <Nombre>Carlos</Nombre>
+        <Apellido>Ruiz</Apellido>
+        <FechaNacimiento>1988-12-03</FechaNacimiento>
+        <Resultado>apto</Resultado>
+        <Observaciones>Destacado en proyectos de desarrollo</Observaciones>
+        <IP>192.168.1.2</IP>
+    </alumno>
+    <alumno>
+        <NIF>34567890D</NIF>
+        <Nombre>Ana</Nombre>
+        <Apellido>López</Apellido>
+        <FechaNacimiento>1995-04-27</FechaNacimiento>
+        <Resultado>apto</Resultado>
+        <Observaciones>Gran habilidad en diseño UX</Observaciones>
+        <MAC>01:23:45:67:89:AB</MAC>
+    </alumno>
+    <alumno>
+        <NIF>23456789E</NIF>
+        <Nombre>Luis</Nombre>
+        <Apellido>García</Apellido>
+        <FechaNacimiento>1991-09-10</FechaNacimiento>
+        <Resultado>apto</Resultado>
+        <Observaciones>Participación activa en la comunidad</Observaciones>
+        <IP>192.168.1.3</IP>
+    </alumno>
+    <alumno>
+        <NIF>89012345F</NIF>
+        <Nombre>Sofía</Nombre>
+        <Apellido>Martínez</Apellido>
+        <FechaNacimiento>1993-06-14</FechaNacimiento>
+        <Resultado>No apto</Resultado>
+        <Observaciones>Necesita mejorar en trabajo en equipo</Observaciones>
+        <MAC>02:34:56:78:9C:DE</MAC>
+    </alumno>
+    <alumno>
+        <NIF>45678901G</NIF>
+        <Nombre>Miguel</Nombre>
+        <Apellido>Fernández</Apellido>
+        <FechaNacimiento>1989-02-18</FechaNacimiento>
+        <Resultado>apto</Resultado>
+        <Observaciones>Destacado en programación backend</Observaciones>
+        <IP>192.168.1.4</IP>
+    </alumno>
+    <alumno>
+        <NIF>56789012H</NIF>
+        <Nombre>Lucía</Nombre>
+        <Apellido>Castro</Apellido>
+        <FechaNacimiento>1994-11-30</FechaNacimiento>
+        <Resultado>No apto</Resultado>
+        <Observaciones>Problemas de asistencia</Observaciones>
+        <MAC>03:45:67:89:AB:CD</MAC>
+    </alumno>
+    <alumno>
+        <NIF>67890123I</NIF>
+        <Nombre>Jorge</Nombre>
+        <Apellido>Rodríguez</Apellido>
+        <FechaNacimiento>1996-07-25</FechaNacimiento>
+        <Resultado>apto</Resultado>
+        <Observaciones>Buen trabajo en proyectos colaborativos</Observaciones>
+        <IP>192.168.1.5</IP>
+    </alumno>
+    <alumno>
+        <NIF>78901234J</NIF>
+        <Nombre>Elena</Nombre>
+        <Apellido>Navarro</Apellido>
+        <FechaNacimiento>1997-03-08</FechaNacimiento>
+        <Resultado>apto</Resultado>
+        <Observaciones>Destacada en análisis de datos</Observaciones>
+        <MAC>04:56:78:9A:BC:DE</MAC>
+    </alumno>
+</alumnos>

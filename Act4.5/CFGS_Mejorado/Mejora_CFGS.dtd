@@ -1,0 +1,10 @@
+<!ELEMENT alumnos (alumno*)>
+<!ELEMENT alumno (NIF, Nombre, Apellido, FechaNacimiento, Resultado, Observaciones, IP?, MAC?)>
+<!ELEMENT NIF (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellido (#PCDATA)>
+<!ELEMENT FechaNacimiento (#PCDATA)>
+<!ELEMENT Resultado (#PCDATA)>
+<!ELEMENT Observaciones (#PCDATA)>
+<!ELEMENT IP (#PCDATA)>
+<!ELEMENT MAC (#PCDATA)>

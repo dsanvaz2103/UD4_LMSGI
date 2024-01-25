@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "./Practicas_CFGS.dtd">
+<alumnos>
+    <alumno>
+        <NIF>12345678A</NIF>
+        <Resultado>apto</Resultado>
+        <Observaciones>Excelente rendimiento</Observaciones>
+        <IP>192.168.1.1</IP>
+    </alumno>
+    <alumno>
+        <NIF>98765432B</NIF>
+        <Resultado>No apto</Resultado>
+        <MAC>00:1A:2B:3C:4D:5E</MAC>
+    </alumno>
+    <alumno>
+        <NIF>56789012C</NIF>
+        <Resultado>apto</Resultado>
+        <Observaciones>Buen progreso en todas las asignaturas</Observaciones>
+        <IP>192.168.1.2</IP>
+    </alumno>
+    <alumno>
+        <NIF>34567890D</NIF>
+        <Resultado>apto</Resultado>
+        <Observaciones>Participa activamente en proyectos</Observaciones>
+        <MAC>01:23:45:67:89:AB</MAC>
+    </alumno>
+</alumnos>
