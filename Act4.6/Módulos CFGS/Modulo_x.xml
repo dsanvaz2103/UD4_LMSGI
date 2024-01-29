@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cfgs_dam SYSTEM "Modulo.dtd">
+<cfgs_dam>
+    <modulo_profesional>
+        <nombre>Lenguaje de Marcas</nombre>
+        <contenidos>
+            <ud num = "01" tipo="Teórica">
+                <descripcion>HTML y XML</descripcion>
+            </ud>
+            <ud num = "01" tipo="Práctica">
+                <descripcion>Creación de documentos web</descripcion>
+            </ud>
+            <ud num = "02" tipo="Teórica">
+                <descripcion>CSS</descripcion>
+            </ud>
+            <ud num = "02" tipo="Práctica">
+                <descripcion>Estilización de páginas web</descripcion>
+            </ud>
+            <ud num = "03" tipo="Teórica">
+                <descripcion>JavaScript</descripcion>
+            </ud>
+            <ud num = "03" tipo="Práctica">
+                <descripcion>Programación interactivas</descripcion>
+            </ud>
+        </contenidos>
+    </modulo_profesional>
+</cfgs_dam>
