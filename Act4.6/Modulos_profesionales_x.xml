@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cfgs_dam SYSTEM "/Modulos_profesionales.xsd">
+<cfgs_dam>
+    <modulo_profesional>
+        <nombre>Lenguaje de Marcas</nombre>
+        <contenidos>
+            <ud tipo="Teórica">
+                <descripcion>HTML y XML</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Creación de documentos web</descripcion>
+            </ud>
+        </contenidos>
+    </modulo_profesional>
+
+    <modulo_profesional>
+        <nombre>Entorno de Desarrollo</nombre>
+        <contenidos>
+            <ud tipo="Teórica">
+                <descripcion>Entornos de desarrollo integrados (IDE)</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Desarrollo y depuración de aplicaciones</descripcion>
+            </ud>
+        </contenidos>
+    </modulo_profesional>
+
+    <modulo_profesional>
+        <nombre>Programación</nombre>
+        <contenidos>
+            <ud tipo="Teórica">
+                <descripcion>Fundamentos de programación</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Desarrollo de algoritmos</descripcion>
+            </ud>
+        </contenidos>
+    </modulo_profesional>
+
+    <modulo_profesional>
+        <nombre>Sistema Informático</nombre>
+        <contenidos>
+            <ud tipo="Teórica">
+                <descripcion>Arquitectura de computadoras</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Configuración de sistemas operativos</descripcion>
+            </ud>
+        </contenidos>
+    </modulo_profesional>
+
+    <modulo_profesional>
+        <nombre>Formación y Orientación Laboral</nombre>
+        <contenidos>
+            <ud tipo="Teórica">
+                <descripcion>Legislación laboral y derechos del trabajador</descripcion>
+            </ud>
+            <ud tipo="Práctica">
+                <descripcion>Búsqueda de empleo y entrevistas</descripcion>
+            </ud>
+        </contenidos>
+    </modulo_profesional>
+</cfgs_dam>

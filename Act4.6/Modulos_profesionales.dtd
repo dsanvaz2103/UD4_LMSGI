@@ -1,0 +1,7 @@
+<!ELEMENT cfgs_dam (modulo_profesional+)>
+<!ELEMENT modulo_profesional (nombre, contenidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT contenidos (ud+)>
+<!ELEMENT ud (descripcion)>
+<!ATTLIST ud tipo CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
