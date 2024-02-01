@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InformeEsquematico SYSTEM "Editorial_Mejorado.dtd">
+<InformeEsquematico>
+    <titular>Ediciones Aranda</titular>
+    <titulo>Informe regional de ventas</titulo>
+    <descripcion>Informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+    <Fecha_Informe>30/12/2009</Fecha_Informe>
+    <Datos>
+        <Region Zona="Norte">
+            <Trimestre num="1">
+                <LibroVendidos>24000</LibroVendidos>
+                <Stock>50</Stock>
+                <EmpleadoVendedor>Juan Pérez</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 1</AutorLibro>
+            </Trimestre>
+            <Trimestre num="2">
+                <LibroVendidos>38600</LibroVendidos>
+                <Stock>60</Stock>
+                <EmpleadoVendedor>María García</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 2</AutorLibro>
+            </Trimestre>
+            <Trimestre num="3">
+                <LibroVendidos>NO_INFO</LibroVendidos>
+                <Stock>70</Stock>
+                <EmpleadoVendedor>Pedro López</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 3</AutorLibro>
+            </Trimestre>
+            <Trimestre num="4">
+                <LibroVendidos>NO_INFO</LibroVendidos>
+                <Stock>80</Stock>
+                <EmpleadoVendedor>Laura Martínez</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 4</AutorLibro>
+            </Trimestre>
+        </Region>
+        <Region Zona="Centro">
+            <Trimestre num="1">
+                <LibroVendidos>NO_INFO</LibroVendidos>
+                <Stock>90</Stock>
+                <EmpleadoVendedor>Carlos Torres</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 5</AutorLibro>
+            </Trimestre>
+            <Trimestre num="2">
+                <LibroVendidos>16080</LibroVendidos>
+                <Stock>100</Stock>
+                <EmpleadoVendedor>Ana Rodríguez</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 6</AutorLibro>
+            </Trimestre>
+            <Trimestre num="3">
+                <LibroVendidos>25000</LibroVendidos>
+                <Stock>110</Stock>
+                <EmpleadoVendedor>Luis Gómez</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 7</AutorLibro>
+            </Trimestre>
+            <Trimestre num="4">
+                <LibroVendidos>29000</LibroVendidos>
+                <Stock>120</Stock>
+                <EmpleadoVendedor>Sofía Morales</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 8</AutorLibro>
+            </Trimestre>
+        </Region>
+        <Region Zona="Sur">
+            <Trimestre num="1">
+                <LibroVendidos>27000</LibroVendidos>
+                <Stock>130</Stock>
+                <EmpleadoVendedor>Roberto Fernández</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 9</AutorLibro>
+            </Trimestre>
+            <Trimestre num="2">
+                <LibroVendidos>31400</LibroVendidos>
+                <Stock>140</Stock>
+                <EmpleadoVendedor>Patricia Sánchez</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 10</AutorLibro>
+            </Trimestre>
+            <Trimestre num="3">
+                <LibroVendidos>40100</LibroVendidos>
+                <Stock>150</Stock>
+                <EmpleadoVendedor>Manuel Pérez</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 11</AutorLibro>
+            </Trimestre>
+            <Trimestre num="4">
+                <LibroVendidos>30000</LibroVendidos>
+                <Stock>160</Stock>
+                <EmpleadoVendedor>Isabel Martínez</EmpleadoVendedor>
+                <AutorLibro>Autor del Libro 12</AutorLibro>
+            </Trimestre>
+        </Region>
+    </Datos>
+</InformeEsquematico>
