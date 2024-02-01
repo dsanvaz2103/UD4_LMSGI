@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InformeEsquematico SYSTEM "Editorial.dtd">
+<InformeEsquematico>
+    <titular>Ediciones Aranda</titular>
+    <titulo>Informe regional de ventas</titulo>
+    <descripcion>Informe de ventas para las regiones Norte,Centro y Sur</descripcion>
+    <Fecha_Informe>30/12/2009</Fecha_Informe>
+    <Datos>
+        <Region Zona="Norte">
+            <Trimestre num="1">
+                <LibroVendidos>24000</LibroVendidos>
+            </Trimestre>
+            <Trimestre num="2">
+                <LibroVendidos>38600</LibroVendidos>
+            </Trimestre>
+            <Trimestre num="3">
+                <LibroVendidos>NO_INFO</LibroVendidos>
+            </Trimestre>
+            <Trimestre num="4">
+                <LibroVendidos>NO_INFO</LibroVendidos>
+            </Trimestre>
+        </Region>
+        <Region Zona="Centro">
+            <Trimestre num="1">
+                <LibroVendidos>NO_INFO</LibroVendidos>
+            </Trimestre>
+            <Trimestre num="2">
+                <LibroVendidos>16080</LibroVendidos>
+            </Trimestre>
+            <Trimestre num="3">
+                <LibroVendidos>25000</LibroVendidos>
+            </Trimestre>
+            <Trimestre num="4">
+                <LibroVendidos>29000</LibroVendidos>
+            </Trimestre>
+        </Region>
+        <Region Zona="Sur">
+            <Trimestre num="1">
+                <LibroVendidos>27000</LibroVendidos>
+            </Trimestre>
+            <Trimestre num="2">
+                <LibroVendidos>31400</LibroVendidos>
+            </Trimestre>
+            <Trimestre num="3">
+                <LibroVendidos>40100</LibroVendidos>
+            </Trimestre>
+            <Trimestre num="4">
+                <LibroVendidos>30000</LibroVendidos>
+            </Trimestre>
+        </Region>
+    </Datos>
+</InformeEsquematico>

@@ -1,0 +1,11 @@
+<!ELEMENT InformeEsquematico (titular, titulo, descripcion, Fecha_Informe, Datos)>
+<!ELEMENT titular (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT Fecha_Informe (#PCDATA)>
+<!ELEMENT Datos (Region+)>
+<!ATTLIST Region Zona CDATA #REQUIRED>
+<!ELEMENT Region (Trimestre+)>
+<!ELEMENT Trimestre (LibroVendidos)>
+<!ATTLIST Trimestre num CDATA #REQUIRED>
+<!ELEMENT LibroVendidos (#PCDATA)>
