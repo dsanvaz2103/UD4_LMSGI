@@ -1,0 +1,54 @@
+{
+    "biblioteca": {
+       "libro": [
+         {
+           "autores": {
+             "autor": [
+               {
+                 "apellido1": "García",
+                 "apellido2": "Márquez",
+                 "apellido3": "Ningun apellido",
+                 "nombre": "Gabriel"
+               }
+             ]
+           },
+           "titulo": "Cien años de soledad",
+           "editorial": "editorial Sudamericana",
+           "fechaPublicacion": "mayo de 1967",
+           "ISBN": "9789510445365"
+         },
+         {
+           "autores": {
+             "autor": [
+               {
+                 "apellido1": "Ronald",
+                 "apellido2": "Reuel",
+                 "apellido3": "Tolkien",
+                 "nombre": "John"
+               }
+             ]
+           },
+           "titulo": "El señor de los anillos",
+           "editorial": "Editorial Tirant Lo Blanch",
+           "fechaPublicacion": "29 de julio de 1954",
+           "ISBN": "9788845292613"
+         },
+         {
+           "autores": {
+             "autor": [
+               {
+                 "apellido1": "Collins",
+                 "apellido2": "Ningun apellido",
+                 "apellido3": "Ningun apellido",
+                 "nombre": "Suzanne"
+               }
+             ]
+           },
+           "titulo": "Los juegos del hambre",
+           "editorial": "Editorial Molino",
+           "fechaPublicacion": "14 de septiembre de 2008",
+           "ISBN": "9780545091022"
+         }
+       ]
+    }
+   }

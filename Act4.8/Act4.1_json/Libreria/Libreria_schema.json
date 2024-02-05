@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "biblioteca":{
+        "libro":{
+            "autores":{
+                "autor":{
+                    "apellido1":{
+                        "type":"string"
+                    },"apellido2":{
+                        "type":"string"
+                    },"apellido3":{
+                        "type":"string"
+                    },"nombre":{
+                        "type":"string"
+                    }
+                }
+            },"titulo":{
+                "type":"string"
+            },"editorial":{
+                "type":"string"
+            },"fechaPublicacion":{
+                "type":"string","format":"date"
+            },"ISBN":{
+                "type":"string"
+            }
+        }, "required": ["nombre", "apellido1","apellido2","titulo","editorial","fechaPublicacion","ISBN"]
+    }
+
+    
+}

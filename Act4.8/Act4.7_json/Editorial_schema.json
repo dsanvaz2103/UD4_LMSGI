@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "InformeEsquematico":{
+        "titular":{
+            "type": "string",
+            "minLength": 1
+        },
+        "titulo":{
+            "type": "string"
+        },
+        "descripcion":{
+            "type": "string"
+        },
+        "Fecha_Informe":{
+            "type": "string",
+            "format": "date"
+        },
+        "Datos":{
+            "region":{
+                "Zona":{
+                    "type": "string"
+                },
+                "Trimestre":{
+                    "num":{
+                        "type":"integer",
+                        "minimum": 0
+                    },
+                    "LibroVendidos":{
+                        "type":"string"
+                    }
+                }
+            }
+        },
+        "required": ["titular", "titulo","Fecha_Informe"]
+    }
+}    
