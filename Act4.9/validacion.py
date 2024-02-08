@@ -1,5 +1,6 @@
 import json
 from jsonschema import validate
+
 # Definir el esquema
 schema = {
     "$schema": "http://json-schema.org/draft-07/schema#",
@@ -26,7 +27,7 @@ schema = {
 # Archivo JSON a validar
 archivo_json = '''
 {
-  "nombre": "",
+  "nombre": "Juan",
   "edad": 25,
   "hobbies": ["lectura", "ciclismo"]
 }

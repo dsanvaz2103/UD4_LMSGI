@@ -1,0 +1,17 @@
+{
+    "clientes": {
+      "sede": {
+        "dir1": "Calle Principal,  123",
+        "dir2": "Piso  4",
+        "empleado": "Juan Pérez",
+        "fecha": "22-01-2024"
+      },
+      "cliente": {
+        "descripcionCliente": "Inmobiliaria XYZ",
+        "numViviendas":  30,
+        "costeVivienda":  300000,
+        "resumenViviendas": "Moderno edificio de apartamentos con excelentes comodidades.",
+        "plazoHacienda": "31-01-2025"
+      }
+    }
+  }
