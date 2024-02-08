@@ -2,32 +2,90 @@ import json
 from jsonschema import validate
 # Definir el esquema
 schema = {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-   "biblioteca":{
-        "libro":{
-            "autores":{
-                "autor":{
-                    "apellido1":{
-                        "type":"string"
-                    },"apellido2":{
-                        "type":"string"
-                    },"apellido3":{
-                        "type":"string"
-                    },"nombre":{
-                        "type":"string"
+      "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "biblioteca": {
+            "type": "object",
+            "properties": {
+                "libro": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "autores": {
+                                "type": "object",
+                                "properties": {
+                                    "autor": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "apellido1": {
+                                                    "type": "string",
+                                                    "minLength" : 1
+                                                },
+                                                "apellido2": {
+                                                    "type": "string",
+                                                    "minLength" : 1
+                                                },
+                                                "apellido3": {
+                                                    "type": "string",
+                                                    "minLength" : 1
+                                                },
+                                                "nombre": {
+                                                    "type": "string",
+                                                    "minLength" : 1
+                                                }
+                                            },
+                                            "required": [
+                                                "nombre",
+                                                "apellido1",
+                                                "apellido2",
+                                                "apellido3"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "required": [
+                                    "autor"
+                                ]
+                            },
+                            "titulo": {
+                                "type": "string",
+                                "minLength" : 1
+                            },
+                            "editorial": {
+                                "type": "string",
+                                "minLength" : 1
+                            },
+                            "fechaPublicacion": {
+                                "type": "string",
+                                "minLength" : 1
+                            },
+                            "ISBN": {
+                                "type": "string",
+                                "minLength" : 1
+                            }
+                        },
+                        "required": [
+                            "autores",
+                            "titulo",
+                            "editorial",
+                            "fechaPublicacion",
+                            "ISBN"
+                        ]
                     }
                 }
-            },"titulo":{
-                "type":"string"
-            },"editorial":{
-                "type":"string"
-            },"fechaPublicacion":{
-                "type":"string","format":"date"
-            },"ISBN":{
-                "type":"string"
-            }
-        }, "required": ["nombre", "apellido1","apellido2","titulo","editorial","fechaPublicacion","ISBN"]
-    }
+            },
+            "required": [
+                "libro"
+            ]
+        }
+    },
+    "required": [
+        "biblioteca"
+    ]
 }
 
 # Archivo JSON a validar
@@ -42,7 +100,7 @@ archivo_json = '''
                  "apellido1": "García",
                  "apellido2": "Márquez",
                  "apellido3": "Ningun apellido",
-                 "nombre": "Gabriel"
+                 "nombre": "Pepe"
                }
              ]
            },

@@ -1,0 +1,22 @@
+{
+    "alumnos": [
+      {
+        "NIF": "12345678A",
+        "Nombre": "Juan",
+        "Apellido": "Pérez",
+        "FechaNacimiento": "1990-05-15",
+        "Resultado": "apto",
+        "Observaciones": "Excelente rendimiento",
+        "IP": "192.168.1.1"
+      },
+      {
+        "NIF": "98765432B",
+        "Nombre": "Maria",
+        "Apellido": "Gómez",
+        "FechaNacimiento": "1992-08-20",
+        "Resultado": "No apto",
+        "Observaciones": "Se necesita mejorar en programación",
+        "MAC": "00:1A:2B:3C:4D:5E"
+      }
+    ]
+  }

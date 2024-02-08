@@ -2,21 +2,25 @@ import json
 from jsonschema import validate
 # Definir el esquema
 schema = {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-       "InformeEsquematico":{
+       "$schema": "http://json-schema.org/draft-07/schema#",
+    "type":"object",
+    "InformeEsquematico":{
+        "type":"array",
         "titular":{
             "type": "string",
             "minLength": 1
         },
         "titulo":{
-            "type": "string"
+            "type": "string",
+            "minLength": 1
         },
         "descripcion":{
             "type": "string"
         },
         "Fecha_Informe":{
             "type": "string",
-            "format": "date"
+            "format": "date",
+            "minLength": 1
         },
         "Datos":{
             "region":{
@@ -33,8 +37,7 @@ schema = {
                     }
                 }
             }
-        },
-        "required": ["titular", "titulo","Fecha_Informe"]
+        },"required": ["titular", "titulo","Fecha_Informe"]
     }
 }
 

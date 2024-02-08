@@ -3,18 +3,24 @@ from jsonschema import validate
 # Definir el esquema
 schema = {
     "$schema": "http://json-schema.org/draft-07/schema#",
-       "BDsms":{
+    "type": "object",
+    "BDsms":{
         "sms":{
+            "type": "array","minLength" : 1,
             "telefono":{
-                "type":"integer"
+                "type":"integer","minLength" : 1
             },"fecha":{
-                "type":"string","format":"date"
+                "type":"string","format":"date","minLength" : 1
             },"hora":{
-                "type":"string"
+                "type":"string","minLength" : 1
             },"mensaje":{
                 "type":"string"
             }
-        }
+        },"required": [
+            "telefono",
+            "fecha",
+            "hora"
+        ]
     }
 }
 
