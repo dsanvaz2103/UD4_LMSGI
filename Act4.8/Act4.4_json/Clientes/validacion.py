@@ -7,20 +7,20 @@ schema = {
     "type": "object",
     "properties": {
       "clientes": {
-        "type": "object","minLength" : 1,
+        "type":"object","minLength" : 1,
         "properties": {
           "sede": {
-            "type": "object","minLength" : 1,
+            "type":"object","minLength" : 1,
             "properties": {
-              "dir1": { "type": "string" },"minLength" : 1,
-              "dir2": { "type": "string" },"minLength" : 1,
-              "empleado": { "type": "string" },"minLength" : 1,
+              "dir1": { "type": "string" ,"minLength" : 1},
+              "dir2": { "type": "string" ,"minLength" : 1},
+              "empleado": { "type": "string" ,"minLength" : 1},
               "fecha": { "type": "string", "format": "date","minLength" : 1 }
             },
             "required": ["dir1", "dir2", "empleado", "fecha"]
           },
           "cliente": {
-            "type": "object","minLength" : 1,
+            "type":"object","minLength" : 1,
             "properties": {
               "descripcionCliente": { "type": "string" ,"minLength" : 1},
               "numViviendas": { "type": "integer","minLength" : 1 },
@@ -30,11 +30,9 @@ schema = {
             },
             "required": ["descripcionCliente", "numViviendas", "costeVivienda", "resumenViviendas", "plazoHacienda"]
           }
-        },
-        "required": ["sede", "cliente"]
+        },"required": ["sede", "clientes"]
       }
-    },
-    "required": ["clientes"]
+    },"required": ["clientes"]
 }
 
 # Archivo JSON a validar
@@ -53,8 +51,8 @@ archivo_json = '''
         "costeVivienda":  300000,
         "resumenViviendas": "Moderno edificio de apartamentos con excelentes comodidades.",
         "plazoHacienda": "31-01-2025"
-      }
-    }
+      } 
+  }    
 }
 '''
 

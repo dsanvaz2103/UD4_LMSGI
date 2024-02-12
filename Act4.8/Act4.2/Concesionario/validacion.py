@@ -8,29 +8,37 @@ schema = {
       "properties": {
         "coche": {
           "type": "array",
+           "minLength" : 1,
           "items": {
             "type": "object",
             "properties": {
               "codigo": {
-                "type": "string"
+                "type": "string",
+                 "minLength" : 1
               },
               "marca": {
-                "type": "string"
+                "type": "string",
+                 "minLength" : 1
               },
               "modelo": {
-                "type": "string"
+                "type": "string",
+                 "minLength" : 1
               },
               "matricula": {
-                "type": "string"
+                "type": "string",
+                 "minLength" : 1
               },
               "potencia": {
-                "type": "string"
+                "type": "string",
+                 "minLength" : 1
               },
               "plazas": {
-                "type": "integer"
+                "type": "integer",
+                 "minLength" : 1
               },
               "puertas": {
-                "type": "integer"
+                "type": "integer",
+                 "minLength" : 1
               }
             },
             "required": ["codigo", "marca", "modelo", "matricula", "potencia", "plazas", "puertas"]
