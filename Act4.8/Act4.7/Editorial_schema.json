@@ -13,13 +13,13 @@
             "type": "object",
             "properties": {
               "Region": {
-                "type": "array",
+                "type": "array","minLength" : 1 ,
                 "items": {
                   "type": "object",
                   "properties": {
-                    "Zona": { "type": "string" },
+                    "Zona": { "type": "string","minLength" : 1 },
                     "Trimestre": {
-                      "type": "array",
+                      "type": "array","minLength" : 1,
                       "items": {
                         "type": "object",
                         "properties": {
@@ -41,4 +41,4 @@
       }
     },
     "required": ["InformeEsquematico"]
-  }
+}
